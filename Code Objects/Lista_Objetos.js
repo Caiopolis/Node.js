@@ -17,7 +17,7 @@ const estudante4 = {
 };
 
 estudante4.endereco.push({
-    rua: "Pedro augusto",
+    rua: "Pedro augusto Moreira",
     num: "234",
     complemento: "Ponto Final jardim Lidia",
 
