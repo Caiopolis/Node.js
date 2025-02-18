@@ -1,0 +1,30 @@
+ JSON (JavaScript Object Notation) é um formato leve de troca de dados que usa uma estrutura 
+ baseada em chave-valor, semelhante a um objeto JavaScript. Ele é amplamente utilizado para 
+ transmitir dados entre servidores e aplicações web.
+ 
+     {
+         "nome": "Caio Henrique",
+         "idade": 19
+     }
+
+ Formato JSON não declara variavel, não é um dado do js
+
+ As chaves são declatadas com aspas duplas, sempre aspas duplas(tanto nas keys como nos values)
+
+ Não pode haver uma virgula sobrando no final da lista
+ Não há possibilidade de fazer funções
+ Não há possibilidade de fazer comentarios
+ Suporta somente dados primitivos.
+
+{
+  "nome": "Ana",
+  "idade": 32,
+  "cpf": "23423423423",
+  "email": "ana@email.com",
+  "telefones": ["551198745632", "551198745633"],
+  "endereco": {
+    "rua": "Rua Joseph Climber",
+    "numero": "45",
+    "complemento": "apto 43"
+  }
+}
