@@ -53,6 +53,7 @@ const carroNovo = {
 }
 const carroComNovosDetalhesAntigo = {
     ...carroVelho,
+    empreendimento: 12000,
     ...carroNovo,
     empreendimento: 12000,
 }
