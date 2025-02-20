@@ -21,4 +21,7 @@ objectAnimais.animais.push({
 )
 objectAnimais.animais[2].habitat = "Floresta Amazonica"
 objectAnimais.animais.splice(1,1)
-console.log(objectAnimais.animais)
+// console.log(objectAnimais.animais)
+
+const stringJASON_animais = JSON.stringify(objectAnimais)
+console.log(stringJASON_animais)
