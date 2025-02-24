@@ -127,7 +127,7 @@ const departamentos = [
 function encontrarFuncionarioId(arrayObj, chave, propriedade) {
   for (const departamento of arrayObj) {
     const funcionario = departamento.funcionarios.find(
-      (func) => func[chave] === propriedade
+      (lista) => lista[chave] === propriedade
     );
     if (funcionario) {
       return funcionario;
